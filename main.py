@@ -57,7 +57,5 @@ while(True):
         if status == False:
             send_msg(i)
             write_gall(i)
-        elif status == None:
-            send_msg("Connection Error")
         time.sleep(5)
     time.sleep(1775)
